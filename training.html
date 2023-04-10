@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+ {% if job == 0 %}
+        <h2>Инженерные тренажёры</h2>
+        <img src="/static/img/enj.jpg"/>
+ {% else %}
+       <h2>Научные симуляторы</h2>
+       <img src="/static/img/science.jpg"/>
+ {% endif %}
+
+{% endblock %}
